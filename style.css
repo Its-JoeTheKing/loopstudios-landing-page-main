@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+html {
+    height: 100vh;
+}
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+* {
+    font-family: "Josefin sans";
+}
+header {
+    width: 80%;
+    padding: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+}
+header li {
+    display: inline;
+    list-style-type: none;
+    font-family: "Josefin sans";
+    font-weight: bold;
+    float: right;
+    margin-left: 30px;
+}
+h2 {
+    display: inline;
+    font-family: "Alata";
+    color: white;
+}
+.s1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./images/desktop/image-hero.jpg") no-repeat;
+    background-size: cover;
+}
+.s1 h1 {
+    font-size: 60px;
+    width: 35%;
+    color: white;
+    border: 2px solid white;
+    padding: 30px;
+    margin-top: 20%;
+    margin-left: calc(10% + 40px);
+    font-weight: 100;
+}
+.s2 {
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+    position: relative;
+}
+.s2 img {
+    width: 70%;
+}
+.s2 .paragraph {
+    margin-bottom: 0px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    height: 60%;
+    right: 0;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: end;
+
+}
+.s2 .paragraph p {
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.5;
+    color: hsl(0, 0%, 55%);
+}
+.s2 .paragraph h1 {
+    font-weight: 100;
+    font-size: 40px;
+}
+.paragraph > * {
+    width: 80%;
+}
+.s3 {
+    margin-top: 100px;
+    width: 80%;
+    margin-bottom: 15%;
+}
+.s3-head {
+    width: 100%;
+}
+.s3-head h1 {
+    font-weight: 100;
+    font-size: 50px;
+    display: inline;
+
+}
+.s3-head button {
+    display: inline;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid black;
+    background: white;
+    float: right;
+    margin: 0;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.s3 .cards {
+    margin-top: 80px;
+    width: 100%;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.cards .card {
+    position: relative;
+    display: flex;
+}
+.card h1 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    width: 60%;
+    margin-left: 15%;
+}
+footer {
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer .cont {
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+.row-1 > * {
+    display: inline;
+}
+.soc {
+    float: right;
+    display: flex;
+    gap: 20px;
+}
+.row-2 > * {
+    display: inline;
+}
+.row-2 li {
+    display: inline;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+}
+.row-2 ul {
+    margin: 0;
+    padding: 0;
+}
+.row-2 p {
+    float: right;
+    font-weight: bold;
+    color: hsl(0, 0%, 41%);
+    margin: 0;
+}
